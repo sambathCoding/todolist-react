@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html,
+body {
+  display: grid;
+  height: 100%;
+  background-color: rgb(204, 201, 196);
+  place-items: center;
+}
+#root {
+  box-shadow: 0 0 5px black;
+  border-radius: 2rem;
+}
+.todo-action {
+  width: 300px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: white;
+}
+.input {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 2px black;
+}
+.add-btn {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 2px black;
+  margin-left: -30px;
+}
+.todoList {
+  border-radius: 5px;
+  width: 50%;
+}
+.content {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.content button {
+  width: 50px;
+  height: 20px;
+}
